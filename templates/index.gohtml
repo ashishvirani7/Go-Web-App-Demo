@@ -1,0 +1,14 @@
+{{template "header" .Title}}
+<link rel="stylesheet" href="/assets/index.css">
+</head>
+<body>
+
+<h1>
+    {{range .Members}}
+    {{.}}<br>
+
+    {{end}}
+</h1>
+
+
+{{template "footer"}}
